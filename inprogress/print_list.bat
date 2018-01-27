@@ -1,4 +1,4 @@
-: This BAT is used for print data on monitor from a specific file, and only print to a specified start line to the end line.
+:: This BAT is used for print data on monitor from a specific file, and only print to a specified start line to the end line.
 @echo off & setlocal ENABLEEXTENSIONS
 set start=5
 set "lines=8"
