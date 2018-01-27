@@ -40,5 +40,5 @@ pause
 ::
 :: 3rd part binning ===
 @echo off
-blat -server 127.0.0.1:25 -f sender@mail_domain -u sender@mail_domain -pw "password here" -to receiver@mail_domain -s "Ipconfig" -body "ipconfig ok" -attach d:\lab\1.txt
+blat -server 127.0.0.1:25 -f sender@mail_domain -u sender@mail_domain -pw "password here" -to recipient@mail_domain -s "Ipconfig" -body "ipconfig ok" -attach d:\lab\1.txt
 :: 3rd end ===
